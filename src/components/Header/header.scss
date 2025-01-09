@@ -1,0 +1,42 @@
+header {
+  padding: 2.4rem 26rem 2.4rem;
+
+  display: flex;
+  justify-content: flex-end;
+  gap: 4rem;
+
+  background-color: #fff;
+
+  a {
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2.3rem;
+
+    text-decoration: none;
+  }
+
+  nav {
+    display: flex;
+    gap: 4rem;
+
+    a {
+      color: #2F2222;
+
+      &:hover {
+        color: #5D71DD;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .phone {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    a {
+      color: #5D71DD;
+      font-weight: 450;
+    }
+  }
+}
