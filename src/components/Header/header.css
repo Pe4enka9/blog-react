@@ -1,33 +1,36 @@
 header {
-  padding: 2.4rem 26rem 2.4rem;
+  background-color: #fff;
+}
+header .header-container {
+  width: 85%;
+  padding: 2.4rem 0;
   display: flex;
   justify-content: flex-end;
   gap: 4rem;
-  background-color: #fff;
 }
-header a {
+header .header-container a {
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 2.3rem;
   text-decoration: none;
 }
-header nav {
+header .header-container nav {
   display: flex;
   gap: 4rem;
 }
-header nav a {
+header .header-container nav a {
   color: #2F2222;
 }
-header nav a:hover {
+header .header-container nav a:hover {
   color: #5D71DD;
   text-decoration: underline;
 }
-header .phone {
+header .header-container .header-container__phone {
   display: flex;
   align-items: center;
   gap: 1rem;
 }
-header .phone a {
+header .header-container .header-container__phone a {
   color: #5D71DD;
   font-weight: 450;
 }
