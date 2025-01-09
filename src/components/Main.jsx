@@ -4,6 +4,7 @@ export default function Main() {
     return (
         <>
             <Header/>
+            <div className="banner"></div>
         </>
     )
 }
